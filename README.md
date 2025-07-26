@@ -1,50 +1,168 @@
-# Welcome to Ecomentor Frontend 👋
+# EcoMentor Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Mobile application to promote energy efficiency in Catalonia**
 
-## Get started
+EcoMentor Frontend is a mobile application developed with React Native and Expo that connects to the [EcoMentor Backend](https://github.com/inkih04/EcoMentor-backend) to provide an intuitive and comprehensive experience in building energy efficiency management.
 
-1. Install dependencies
+## Development Methodology
 
-   ```bash
-   npm install
-   ```
+This project was developed following the **Scrum methodology**, enabling iterative and incremental development with regular value deliveries. For source code management, **GitFlow** was implemented, ensuring a structured workflow with specific branches for development, features, and releases.
 
-2. Start the app
+> **Note**: When transferring the repository to this personal profile, the complete commit history and branches that documented the original development process have been lost.
 
-   ```bash
-    npx expo start
-   ```
+## Key Features
 
-In the output, you'll find options to open the app in a
+- **Interactive Maps**: Visualize real-time energy information of buildings
+- **Energy Certificates**: Query and compare energy efficiency certificates
+- **AI Assistant**: Intelligent chatbot for personalized sustainability advice
+- **Improvement Calculator**: Quantifies the benefits of implementing energy improvements
+- **Native Experience**: Interface optimized for iOS and Android
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **React Native** with Expo
+- **TypeScript** for enhanced code robustness
+- **Axios** for API communication
+- **React Navigation** for screen navigation
+- **Expo Router** for file-based routing
 
-## Get a fresh project
+## Prerequisites
 
-When you're ready, run:
+- Node.js (version 18 or higher)
+- npm or yarn
+- Expo CLI
+- Android Studio (for Android development)
+- Xcode (for iOS development, macOS only)
+
+## Installation and Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/inkih04/Ecomentor-front.git
+cd Ecomentor-front
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Configure environment variables
+Create a `.env` file in the project root:
+```env
+EXPO_PUBLIC_API_URL=http://localhost:8080/api
+```
+
+### 4. Start the application
+```bash
+npx expo start
+```
+
+## Development Options
+
+In the terminal you'll see options to run the app on:
+
+- **Expo Go**: Scan the QR code to test on your device
+- **Android Emulator**: [Configure Android Studio](https://docs.expo.dev/workflow/android-studio-emulator/)
+- **iOS Simulator**: [Configure Xcode](https://docs.expo.dev/workflow/ios-simulator/) (macOS only)
+- **Development Build**: For advanced native functionalities
+
+## Project Structure
+
+```
+app/
+├── (tabs)/          # Tab navigation
+├── components/      # Reusable components
+├── services/        # API communication
+├── utils/          # Utilities and helpers
+└── types/          # TypeScript definitions
+```
+
+This project uses Expo Router's [file-based routing](https://docs.expo.dev/router/introduction/).
+
+## Useful Commands
 
 ```bash
+# Run in development mode
+npm start
+
+# Clear Expo cache
+npx expo start -c
+
+# Create development build
+npx expo run:android
+npx expo run:ios
+
+# Reset project (remove example code)
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Screenshots
 
-## Learn more
+<!-- Add your application screenshots here -->
+<!-- 
+### Main Screen
+![Main Screen](./screenshots/home.jpg)
 
-To learn more about developing your project with Expo, look at the following resources:
+### Interactive Map
+![Map](./screenshots/map.jpg)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Energy Certificates
+![Certificates](./screenshots/certificates.jpg)
 
-## Join the community
+### AI Chatbot
+![Chatbot](./screenshots/chatbot.jpg)
+-->
 
-Join our community of developers creating universal apps.
+*Screenshots will be added soon*
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Backend API
+
+This application consumes the [EcoMentor Backend](https://github.com/inkih04/EcoMentor-backend) API. Make sure the backend is running before starting the mobile application.
+
+## Testing
+
+```bash
+# Run tests (when configured)
+npm test
+```
+
+## Deployment
+
+To create production builds:
+
+```bash
+# Build for Android
+npx eas build --platform android
+
+# Build for iOS
+npx eas build --platform ios
+```
+
+## Contributing
+
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Additional Resources
+
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Native Tutorial](https://reactnative.dev/docs/getting-started)
+- [Expo Router Guide](https://docs.expo.dev/router/introduction/)
+
+## Community
+
+- [Expo on GitHub](https://github.com/expo/expo)
+- [Expo Discord](https://chat.expo.dev)
+- [React Native Community](https://reactnative.dev/community/overview)
+
+---
+
+**Contributing to a more sustainable future, one application at a time**
