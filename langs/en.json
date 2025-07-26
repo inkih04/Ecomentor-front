@@ -1,0 +1,311 @@
+{
+  "welcome": "Welcome to EcoMentor",
+  "login": "Login",
+  "home": "EcoMentor",
+  "profile": "Profile",
+  "settings": "Settings",
+  "calculate": "Calculate",
+  "recommendations": "Recommendations",
+  "chatbot": "Our Chatbot",
+  "historic": "Historic data",
+  "achievements": "Achievements",
+  "register": "Register",
+  "noAccount": "Don't have an account? Create one!",
+  "documentId": "ID",
+  "certificateType": "Type",
+  "entryDate": "Entry Date",
+  "buildingUse": "Building Use",
+  "energeticRehabilitation": "Has an energetic rehabilitation been done?",
+  "adressName": "Adress Name",
+  "addressNumber": "Adress Number",
+  "zipcode": "Zipcode",
+  "town": "Town",
+  "region": "Region",
+  "province": "Province",
+  "longitude": "Longitude",
+  "latitude": "Latitude",
+  "floor": "Floor",
+  "door": "Door",
+  "climateZone": "Climate Zone",
+  "cadastreMeters": "Cadastral",
+  "buildingYear": "Building Year",
+  "nonRenewablePrimaryQualification": "Non-Renewable-Primary Qualification ",
+  "nonRenewablePrimaryEnergy": "Non-Renewable-Primary Energy",
+  "co2Qualification": "CO2 Qualification",
+  "co2Emissions": "CO2 Emissions",
+  "finalEnergyConsumption": "Final Energy Consumption",
+  "annualCost": "Annual Cost",
+  "heatingQualification": "Heating Qualification",
+  "heatingEmissions": "Heating Emissions",
+  "refrigerationQualification": "Refrigeration Qualification",
+  "refrigerationEmissions": "Refrigeration Emissions",
+  "acsQualification": "ACS Qualification",
+  "acsEmissions": "ACS Emissions",
+  "lightingQualification": "Lighting Qualification",
+  "lightingEmissions": "Lighting Emissions",
+  "residentialUseVentilation": "Residential-use Ventilation",
+  "electricVehicle": "Has electric vehicle charger?",
+  "solarThermal": "Uses solar thermal energy?",
+  "photovoltaicSolar": "Has photovoltaic panels?",
+
+  "insulation": "Facade Insulation Efficiency",
+  "windowEfficiency": "Window Insulation Efficiency",
+  "email":"Email",
+  "name":"Name",
+  "password": "Password",
+  "nameRequired": "Name is required",
+  "emailRequired": "Mail is required",
+  "passwordRequired": "Password is required",
+  "passwordMin": "Password at least 8 characters",
+  "emailInvalid": "Invalid email address",
+  "bindDocument": "Bind another certificate",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "deleteProfile": "Are you sure to delete your profile?",
+  "switchLanguage": "Switch language",
+  "logout": "Logout",
+  "save": "Save",
+  "submit": "Submit",
+  "myCertificates": "My certificates",
+  "changedLanguage": "Changed language",
+  "loggedOut": "User logged out",
+  "badCredentials": "Bad credentials",
+  "estimatedCost": "Estimated cost",
+  "estimatedSavings": "Old annual estimated cost -> New",
+  "estimatedImprovement": "New average qualification",
+  "costImprovementRelation": "Improvement&Cost relation",
+  "overallResult": "Overall result",
+  "totalAmount": "Total amount",
+  "selectedCertificate": "Selected Certificate:",
+  "selectCertificate": "Select Certificate",
+  "selectChat": "Select Chat",
+  "createChat": "Create Chat",
+  "nameYourChat": "Name here your new chat with your EcoChatBot",
+  "alreadyHaveChat": "You already have a chat with this title, please try again.",
+  "successChat": "Your new chat has been created correctly.",
+  "errorCreatingChat": "Error creating your new chat, please try again.",
+  "chatPlaceholder": "Write your eco-questions...",
+  "initialChat": "Initial chat",
+  "changeCertificate": "Change Certificate",
+  "infoAboutRecommendations": "Select on one or more recommendations to see overall results bellow",
+  "energyTransition": "Energy transition",
+  "energyTransitionDescription": "Buildings are no longer just passive energy consumers; they now enable people to be both producers and consumers (prosumers) through the integration of renewable energy sources.\n\nActive citizen participation transforms buildings into platforms for energy generation, consumption and exchange.",
+  "co2Emission": "CO2 emission",
+  "co2EmissionDescription": "Carbon dioxide (CO₂) is one of the main greenhouse gases released into the atmosphere, primarily from burning fossil fuels like coal, oil, and gas. As CO₂ levels rise, they trap more heat in the Earth's atmosphere, leading to global warming. This results in rising sea levels, more frequent extreme weather events, and disruptions to ecosystems and biodiversity. Reducing CO₂ emissions is essential to slowing climate change and protecting the planet's future.",
+  "errorMessageGeneric": "Error, please try again.",
+  "failedProfileFetch": "Failed to get your profile information, please try again.",
+  "noCertificatesFound": "No certificates found in your profile.",
+  "noChatsFound": "You have no chats, please create one.",
+  "noRecommendations": "Could not generate recommendations for your certificate.",
+  "failedToUseCertificate": "Failed to use certificate. Please try again.",
+  "contextPrompt": "From now on you have to talk to me as if you were an assistant called EcoMentor Chatbot and you only are here to help about ecological questions and more specifically, building certificates questions. If it is something out of the line, don't answer. Make it appear as you are already introducing yourself as a chatbot, not like you are answering this prompt. Answer in the same language as you are spoken, only in english or spanish.",
+  "filterBy": "Filter by",
+  "category": "Category",
+  "emissions": "Emissions",
+  "qualifications": "Qualifications",
+  "energyPerformance": "Energy performance",
+  "percentRenewable": "Renewable energies",
+  "energySaving": "Energy saving measures",
+  "catalonia": "Catalonia",
+  "prev": "Prev",
+  "next": "Next",
+  "none": "None",
+  "veryLow": "Very low",
+  "low": "Low",
+  "medium": "Medium",
+  "high": "High",
+  "veryHigh": "Very high",
+  "maximum": "Maximum",
+
+  "terciari": "Tertiary", 
+  "blocHabitatgesPlurifamiliar": "Multi-family housing block", 
+  "habitatgeIndividualBlocHabitatges": "Individual housing in housing block", 
+  "habitatgeUnifamiliar": "Single-family housing",
+  "yes": "Yes",
+  "no": "No",
+  "kindOfHeating": "Heating system",
+  "kindOfRefrigeration": "Refrigeration system",
+  "kindOfAcs": "ACS emissions",
+  "biomass": "Biomass",
+  "districtNet": "District network",
+  "geothermal": "Geothermal",
+  "electricBoiler": "Electric boiler",
+  "gasBoiler": "Gas boiler",
+  "electric": "Electric",
+  "heatingConsumption": "Heating consumption",
+  "refrigerationConsumption": "Refrigeration consumption",
+  "acsConsumption": "ACS consumption",
+  "lightingConsumption": "Lighting consumption",
+
+
+  "accept": "Accept",
+  "reject": "Reject",
+  "results": "Results",
+
+  "unofficial": "Unofficial",
+
+  "calendar": "Calendar",
+  "info": "Info",
+  "date": "Date",
+  "schedule": "Schedule",
+  "categories": "Categories",
+  "location": "Location",
+  "at": "At",
+  "links": "Links",
+  "from": "From",
+  "to": "To",
+  "gallery": "Gallery",
+
+  "getEventsByLocation": "Get events by location",
+  "nearBarcelona": "Near Barcelona",
+  "nearYou": "Near you",
+  "nearCertificate": "Near associated certificate",
+  "certificates": "Certificates",
+  "loadEvents": "Load filtered events",
+  
+  
+  "recommendationTexts": {
+    "1": {
+      "name": "Improve insulation",
+      "description": "Install better insulation materials in walls and ceilings to improve thermal efficiency."
+    },
+    "2": {
+      "name": "Install solar panels",
+      "description": "Install photovoltaic solar panels to reduce dependence on the electrical grid and reduce emissions."
+    },
+    "3": {
+      "name": "Improve window efficiency",
+      "description": "Replace windows with more insulated and energy-efficient models."
+    },
+    "4": {
+      "name": "Install heat pump",
+      "description": "Install a heat pump to upgrade the air conditioning system, especially in older buildings."
+    },
+    "5": {
+      "name": "Implement biomass system",
+      "description": "Install a biomass system to harness renewable energy for heating."
+    },
+    "6": {
+      "name": "Optimize HVAC system",
+      "description": "Upgrade or improve your HVAC system to reduce energy consumption and emissions."
+    },
+    "7": {
+      "name": "Improve lighting",
+      "description": "Upgrade to high-performance LED lighting systems to reduce consumption and associated emissions."
+    },
+    "8": {
+      "name": "Install solar thermal system",
+      "description": "Cover at least 70% of DHW demand with solar thermal energy."
+    },
+    "9": {
+      "name": "Connect to urban heat network",
+      "description": "Reduce CO₂ emissions by 2.5–3.2× compared to conventional boilers."
+    },
+    "10": {
+      "name": "Install geothermal system",
+      "description": "Provide 15–20% of the annual thermal demand through underground exchangers."
+    },
+    "11": {
+      "name": "Install EV charging point",
+      "description": "Level 2 domestic charging point (240V) to reduce the carbon footprint of transport by 25%."
+    },
+    "12": {
+      "name": "Install heat recovery unit",
+      "description": "Savings of 15–30% on heating with an energy recovery ventilation system."
+    },
+    "13": {
+      "name": "Upgrade cooling system",
+      "description": "Replace with VRF or high efficiency reversible pump."
+    },
+    "14": {
+      "name": "Optimize hot water",
+      "description": "Switch to a heat pump for DHW or improve pipe insulation."
+    },
+    "15": {
+      "name": "Deep energy rehabilitation",
+      "description": "Consumption reduction of >30% with comprehensive improvement of the envelope and systems."
+    },
+    "16": {
+      "name": "Retro-commissioning of systems",
+      "description": "~15% energy savings with retro-commissioning and adjustments to existing plant."
+    },
+    "17": {
+      "name": "Implement smart control and home automation",
+      "description": "Improve air conditioning and lighting management, estimated savings of 5%."
+    }
+  },
+  "compare": "Compare",
+  "compareInfo": "Press another marker to compare",
+  "heatingCategory": "Heating",
+  "refrigerationCategory": "Refrigeration",
+  "energyCategory": "Energy cons",
+  "overallEmissions": "Emissions by category",
+  "moreEco": "IS MORE ECOLOGICAL",
+  "ecoPoints": "Eco-Points:",
+  "bestEmi": "Less emissions:",
+  "bestCons": "Less consumed energy:",
+  "banned": "You are banned due to sending messages to quickly or inappropriate language.",
+  "banEnds": "Your ban will be revoked at: ",
+  "inappropriateLanguage": "You have been banned for using inappropriate language.",
+  "tooManyMessagesQuickly": "You have been banned for sending too many messages quickly.",
+  "certificateContextPrompt": "This is my certificate, use it please as context for giving recommendations and answering my questions",
+  "imageObtainError": "Couldn't obtain image, try again please.",
+  "sharingIsDisabled": "Sharing is disabled in your device.",
+  "notificationTitleHourly": "\uD83C\uDF31 Keep track of your Eco-Progress!",
+  "notificationBodyHourly": "Don't forget to check your recommendations!",
+  "notificationTitleDaily": "🌞 Daily Eco Reminder",
+  "notificationBodyDaily": "Check your achievements and buildings close to you!",
+  "achievementTexts": {
+    "1": {
+      "name": "First official certificate",
+      "description": "Link your first official certificate to your account!"
+    },
+    "2": {
+      "name": "C-Level Recommendation",
+      "description": "Obtain a final recommendation of C or above"
+    },
+    "3": {
+      "name": "B-Level Recommendation",
+      "description": "Obtain a final recommendation of B or above"
+    },
+    "4": {
+      "name": "A-Level Recommendation",
+      "description": "Obtain a final recommendation of A or above"
+    },
+    "5": {
+      "name": "First non-official certificate",
+      "description": "Calculate your first non-official certificate"
+    },
+    "6": {
+      "name": "B-Level Certificate",
+      "description": "Obtain a non-official certificate with B score or above"
+    },
+    "7": {
+      "name": "B-Level expert",
+      "description": "Obtain 3 non-official certificates with B score or above"
+    },
+    "8": {
+      "name": "A-Level certificate",
+      "description": "Obtain a non-official certificate with A score or above"
+    },
+    "9": {
+      "name": "A-Level expert",
+      "description": "Obtain 3 non-official certificates with A score or above"
+    },
+    "10": {
+      "name": "A-Level master",
+      "description": "Obtain 5 non-official certificates with A score or above"
+    },
+    "11": {
+      "name": "Ecomentor chat",
+      "description": "Interact with the Ecomentor Chatbot"
+    },
+    "12": {
+      "name": "Watch your words",
+      "description": "Make the Ecomentor Chat angry"
+    }
+  },
+  "continueWithGoogle": "Continue with Google",
+  "mapInfo": "Click on any pin to view its building energy certificate"
+}

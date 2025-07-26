@@ -1,0 +1,19 @@
+{
+    "1": "INSULATION",
+    "2": "SOLAR",
+    "3": "WINDOWS",
+    "4": "HEAT_PUMP",
+    "5": "BIOMASS",
+    "6": "HVAC",
+    "7": "LIGHTING",
+    "8": "SOLAR_THERMAL",
+    "9": "DISTRICT_HEATING",
+    "10": "GEOTHERMAL",
+    "11": "EV_CHARGING",
+    "12": "VENTILATION",
+    "13": "REFRIGERATION",
+    "14": "WATER_HEATING",
+    "15": "REHABILITATION",
+    "16": "COMMISSIONING",
+    "17": "SMART_CONTROL"
+}

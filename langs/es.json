@@ -1,0 +1,308 @@
+{
+  "welcome": "Bienvenido a EcoMentor",
+  "home": "EcoMentor",
+  "profile": "Perfil",
+  "settings": "Configuración",
+  "calculate": "Calcula",
+  "recommendations": "Recomendaciones",
+  "chatbot": "Nuestro Chatbot",
+  "historic": "Datos históricos",
+  "achievements": "Logros",
+  "login": "Iniciar sesión",
+  "register": "Crea una cuenta",
+  "email":"Email",
+  "name":"Nombre",
+  "nameRequired": "Se requiere un nombre",
+  "emailRequired": "Se requiere un email",
+  "passwordRequired": "Se requiere una contraseña",
+  "passwordMin": "Contraseña almenos de 8 caracteres",
+  "emailInvalid": "Dirección de email inválida",
+  "password": "Contraseña",
+  "noAccount": "¿No tienes una cuenta? ¡Creála!",
+  "documentId": "ID",
+  "certificateType": "Tipo",
+  "entryDate": "Fecha de entrada",
+  "buildingUse": "Uso del edificio",
+  "energeticRehabilitation": "¿Ha tenido una rehabilitación energética?",
+  "adressName": "Nombre de dirección",
+  "addressNumber": "Nº de dirección",
+  "zipcode": "Código postal",
+  "town": "Poblacion",
+  "region": "Comarca",
+  "province": "Província",
+  "longitude": "Longitud",
+  "latitude": "Latitud",
+  "floor": "Piso",
+  "door": "Puerta",
+  "climateZone": "Zona climática",
+  "cadastreMeters": "Cadastral",
+  "buildingYear": "Año de construcción",
+  "nonRenewablePrimaryQualification": "Calificación de energía no renovable",
+  "nonRenewablePrimaryEnergy": "Emisiones de energía no renovable",
+  "co2Qualification": "Calificación de CO2",
+  "co2Emissions": "Emisiones de CO2",
+  "finalEnergyConsumption": "Consumición de energía final",
+  "annualCost": "Costes anuales",
+  "heatingQualification": "Calificación de calefacción",
+  "heatingEmissions": "Emisiones de calefacción",
+  "refrigerationQualification": "Calificación de refrigeración",
+  "refrigerationEmissions": "Emisiones de refrigeración",
+  "acsQualification": "Calificación ACS",
+  "acsEmissions": "Emisión ACS",
+  "lightingQualification": "Calificación de electricidad",
+  "lightingEmissions": "Emisiones de electricidad",
+  "residentialUseVentilation": "Residential-use Ventilation",
+  "electricVehicle": "¿Tiene cargador de coche eléctrico?",
+  "solarThermal": "¿Utiliza energía térmica solar?",
+  "photovoltaicSolar": "¿Tiene paneles fotovoltaicos?",
+  "insulation": "Eficiencia de insulación de la fachada",
+  "windowEfficiency": "Eficiencia de insulación de las ventanas",
+  "bindDocument": "Vincula otro certificado",
+  "confirm": "Confirmar",
+  "cancel": "Cancelar",
+  "delete": "Borrar",
+  "deleteProfile": "¿Estás seguro de eliminar tu perfil?",
+  "switchLanguage": "Cambiar idioma",
+  "logout": "Salir",
+  "save": "Guardar",
+  "submit": "Enviar",
+  "myCertificates": "Mis certificados",
+  "changedLanguage": "Idioma cambiado",
+  "loggedOut": "Sesión cerrada",
+  "badCredentials": "Credenciales incorrectas",
+  "energyTransition": "Transición energética",
+  "energyTransitionDescription": "Los edificios ya no son solo consumidores pasivos de energía; ahora permiten a las personas ser tanto productores como consumidores (prosumidores) a través de la integración de fuentes de energía renovable.\n\nLa participación activa de los ciudadanos transforma los edificios en plataformas para la generación, el consumo y el intercambio de energía.",
+  "co2Emission": "Emisiones de CO2",
+  "co2EmissionDescription": "El dióxido de carbono (CO₂) es uno de los principales gases de efecto invernadero que se liberan a la atmósfera, principalmente por la quema de combustibles fósiles como el carbón, el petróleo y el gas. A medida que aumentan los niveles de CO₂, atrapan más calor en la atmósfera terrestre, lo que lleva al calentamiento global. Esto resulta en el aumento del nivel del mar, eventos climáticos extremos más frecuentes y alteraciones en los ecosistemas y la biodiversidad. Reducir las emisiones de CO₂ es esencial para frenar el cambio climático y proteger el futuro del planeta.",
+  "filterBy": "Filtrar por",
+  "estimatedCost": "Coste aproximado",
+  "estimatedImprovement": "Nueva calificación promedia",
+  "estimatedSavings": "Coste anual estimado antiguo -> Nuevo",
+  "costImprovementRelation": "Relación Mejora&Coste",
+  "overallResult": "Resultado general",
+  "totalAmount": "Cantidad total",
+  "selectedCertificate": "Certificado Seleccionado:",
+  "selectCertificate": "Seleccionar Certificado",
+  "selectChat": "Seleccionar Chat",
+  "createChat": "Crear Chat",
+  "nameYourChat": "Dale un nombre a tu nuevo chat con tu EcoChatBot",
+  "alreadyHaveChat": "Ya tienes un chat con este titulo, por favor vuelva a intentarlo.",
+  "successChat": "Tu nuevo chat ha sido creado correctamente",
+  "errorCreatingChat": "Ha habido un error al crear tu nuevo chat, por favor vuelva a intentarlo.",
+  "chatPlaceholder": "Escribe tus eco-preguntas...",
+  "initialChat": "Chat inicial",
+  "changeCertificate": "Cambiar certificado",
+  "infoAboutRecommendations": "Selecciona una o más recomendaciones para ver los resultados generales en la parte inferior",
+  "errorMessageGeneric": "Error, por favor vuelve a intentarlo.",
+  "noCertificatesFound": "No tienes ningún certificado asociado.",
+  "noChatsFound": "No tienes ningún chat, por favor crea uno.",
+  "noRecommendations": "No se han podido generar recomendaciones para tu certificado.",
+  "failedToUseCertificate": "No se ha podido usar el certificado. Vuelva a intentarlo",
+  "contextPrompt": "A partir de ahora, tienes que hablarme como si fueras un asistente llamado EcoMentor Chatbot y tu única función es ayudar con preguntas ecológicas y, más específicamente, con preguntas sobre certificados energéticos de edificios. Si la pregunta no está relacionada con eso, no debes responder. Haz como si ya estubieras presentandote como un chatbot, que no parezca que estes respondiendo a este prompt. Habla solo en el idioma en que te hablan, solo español o ingles.",
+  "category": "Categoria",
+  "emissions": "Emisiones",
+  "qualifications": "Calificaciones",
+  "energyPerformance": "Rendimiento energètico",
+  "percentRenewable": "Energias renovables",
+  "energySaving": "Medidas de ahorro energètico",
+  "catalonia": "Cataluña",
+  "prev": "Prev.",
+  "next": "Sig.",
+
+  "none": "Ninguno",
+  "veryLow": "Muy bajo",
+  "low": "Bajo",
+  "medium": "Medio",
+  "high": "Alto",
+  "veryHigh": "Muy alto",
+  "maximum": "Máximo",
+
+  "terciari": "Terciario", 
+  "blocHabitatgesPlurifamiliar": "Bloque de viviendas plurifamiliar", 
+  "habitatgeIndividualBlocHabitatges": "Vivienda individual en bloque de viviendas", 
+  "habitatgeUnifamiliar": "Vivienda unifamiliar",
+  "yes": "Sí",
+  "no": "No",
+  "kindOfHeating": "Sistema de calefacción",
+  "kindOfRefrigeration": "Sistema de refrigeración",
+  "kindOfAcs": "Emisiones de ACS",
+  "biomass": "Biomasa",
+  "districtNet": "Red de distrito",
+  "geothermal": "Geotermia",
+  "electricBoiler": "Caldera eléctrica",
+  "gasBoiler": "Caldera de gas",
+  "electric": "Eléctrico",
+  "heatingConsumption": "Consumo de calefacción",
+  "refrigerationConsumption": "Consumo de refrigeración",
+  "acsConsumption": "Consumo de ACS",
+  "lightingConsumption": "Consumo de iluminación",
+
+  "accept": "Aceptar",
+  "reject": "Rechazar",
+  "results": "Resultados",
+
+  "unofficial": "No oficial",
+
+  "calendar": "Calendario",
+  "info": "Información",
+  "date": "Fecha",
+  "schedule": "Horario",
+  "categories": "Categorías",
+  "location": "Ubicación",
+  "at": "En",
+  "links": "Enlaces",
+  "from": "Desde",
+  "to": "Hasta",
+  "gallery": "Galería",
+
+  "getEventsByLocation": "Obtener eventos por ubicación",
+  "nearBarcelona": "Cerca de Barcelona",
+  "nearYou": "Cerca de ti",
+  "nearCertificate": "Cerca del certificado asociado",
+  "certificates": "Certificados",
+  "loadEvents": "Cargar eventos filtrados",
+
+  "recommendationTexts": {
+    "1": {
+      "name": "Mejorar aislamiento",
+      "description": "Instalar mejores materiales aislantes en paredes y techos para mejorar la eficiencia térmica."
+    },
+    "2": {
+      "name": "Instalar paneles solares",
+      "description": "Instalar paneles solares fotovoltaicos para reducir la dependencia de la red eléctrica y las emisiones."
+    },
+    "3": {
+      "name": "Mejorar eficiencia de ventanas",
+      "description": "Sustituir las ventanas por modelos más aislantes y eficientes energéticamente."
+    },
+    "4": {
+      "name": "Instalar bomba de calor",
+      "description": "Instalar una bomba de calor para modernizar el sistema de climatización, especialmente en edificios antiguos."
+    },
+    "5": {
+      "name": "Implementar sistema de biomasa",
+      "description": "Instalar un sistema de biomasa para aprovechar energía renovable en calefacción."
+    },
+    "6": {
+      "name": "Optimizar sistema HVAC",
+      "description": "Mejorar o actualizar el sistema HVAC para reducir el consumo energético y las emisiones."
+    },
+    "7": {
+      "name": "Mejorar iluminación",
+      "description": "Cambiar a sistemas LED de alto rendimiento para reducir el consumo y las emisiones asociadas."
+    },
+    "8": {
+      "name": "Instalar sistema solar térmico",
+      "description": "Cubrir al menos el 70% de la demanda de ACS con energía solar térmica."
+    },
+    "9": {
+      "name": "Conectarse a red de calor urbana",
+      "description": "Reducir emisiones de CO₂ entre 2.5 y 3.2 veces en comparación con calderas convencionales."
+    },
+    "10": {
+      "name": "Instalar sistema geotérmico",
+      "description": "Cubrir entre el 15–20% de la demanda térmica anual con intercambiadores subterráneos."
+    },
+    "11": {
+      "name": "Instalar punto de carga para VE",
+      "description": "Punto de carga doméstico de nivel 2 (240V) para reducir en un 25% la huella de carbono del transporte."
+    },
+    "12": {
+      "name": "Instalar unidad de recuperación de calor",
+      "description": "Ahorros del 15–30% en calefacción con un sistema de ventilación con recuperación de energía."
+    },
+    "13": {
+      "name": "Actualizar sistema de refrigeración",
+      "description": "Sustituir por sistema VRF o bomba reversible de alta eficiencia."
+    },
+    "14": {
+      "name": "Optimizar agua caliente",
+      "description": "Cambiar a bomba de calor para ACS o mejorar el aislamiento de las tuberías."
+    },
+    "15": {
+      "name": "Rehabilitación energética profunda",
+      "description": "Reducción de consumo >30% con mejoras integrales en la envolvente y los sistemas."
+    },
+    "16": {
+      "name": "Retrocomisionado de sistemas",
+      "description": "Ahorro energético de ~15% con retrocomisionado y ajustes en las instalaciones existentes."
+    },
+    "17": {
+      "name": "Implementar control inteligente y domótica",
+      "description": "Mejorar la gestión de climatización e iluminación, con un ahorro estimado del 5%."
+    }
+  },
+  "compare": "Comparar",
+  "compareInfo": "Pulsa otro marcador para comparar",
+  "heatingCategory": "Calefacción",
+  "refrigerationCategory": "Refrigeración",
+  "energyCategory": "Cons. energia",
+  "overallEmissions": "Emisiones por categoria",
+  "moreEco": "ES MÁS ECOLÓGICO",
+  "ecoPoints": "Eco-Puntos:",
+  "bestEmi": "Menos emisiones:",
+  "bestCons": "Menos energía consumida:",
+  "banned": "Estas baneado de EcoChatBot por enviar mensajes seguidos demasiado rápido o usar palabras ofensivas.",
+  "banEnds": "Tu baneo se desbloqueará el: ",
+  "inappropriateLanguage": "Has sido bloqueado por lenguaje inapropiado.",
+  "tooManyMessagesQuickly": "Has sido bloqueado por enviar demasiados mensajes rápidamente.",
+  "certificateContextPrompt": "Este es mi certificado, usalo como contexto y para ayudarme con mis dudas sobre el etc.",
+  "imageObtainError": "No se ha podido obtener la imagen, vuelva a intentarlo.",
+  "sharingIsDisabled": "Tu dispositivo no tiene la opción de compartir habilitada.",
+  "notificationTitleHourly": "\uD83C\uDF31 Sigue con tu Eco-Progress!",
+  "notificationBodyHourly": "¡No te olvides de revisar tus recomendaciones!",
+  "notificationTitleDaily": "🌞 Recordatorio ecológico diario",
+  "notificationBodyDaily": "¡Revisa tus logros y tus edificios cercanos!",
+  "achievementTexts": {
+    "1": {
+      "name": "Primer certificado oficial",
+      "description": "¡Vincula tu primer certificado oficial a tu cuenta!"
+    },
+    "2": {
+      "name": "Recomendación nivel C",
+      "description": "Obtén una recomendación final de nivel C o superior"
+    },
+    "3": {
+      "name": "Recomendación nivel B",
+      "description": "Obtén una recomendación final de nivel B o superior"
+    },
+    "4": {
+      "name": "Recomendación nivel A",
+      "description": "Obtén una recomendación final de nivel A o superior"
+    },
+    "5": {
+      "name": "Primer certificado no oficial",
+      "description": "Calcula tu primer certificado no oficial"
+    },
+    "6": {
+      "name": "Certificado nivel B",
+      "description": "Obtén un certificado no oficial con nota B o superior"
+    },
+    "7": {
+      "name": "Experto nivel B",
+      "description": "Obtén 3 certificados no oficiales con nota B o superior"
+    },
+    "8": {
+      "name": "Certificado nivel A",
+      "description": "Obtén un certificado no oficial con nota A o superior"
+    },
+    "9": {
+      "name": "Experto nivel A",
+      "description": "Obtén 3 certificados no oficiales con nota A o superior"
+    },
+    "10": {
+      "name": "Maestro nivel A",
+      "description": "Obtén 5 certificados no oficiales con nota A o superior"
+    },
+    "11": {
+      "name": "Chat con Ecomentor",
+      "description": "Interactúa con el chatbot de Ecomentor"
+    },
+    "12": {
+      "name": "Cuidado con tus palabras",
+      "description": "Haz enojar al chatbot de Ecomentor"
+    }
+  },
+  "continueWithGoogle": "Continuar con Google",
+  "mapInfo": "Clica en cualquier pin para ver el certificado energético de ese edificio"
+}
