@@ -97,24 +97,31 @@ npx expo run:ios
 npm run reset-project
 ```
 
-## Screenshots
+## 📱 Screenshots
 
-<!-- Add your application screenshots here -->
-<!-- 
-### Main Screen
-![Main Screen](./screenshots/home.jpg)
+<details>
+<summary>📸 Click to view app screenshots</summary>
 
-### Interactive Map
-![Map](./screenshots/map.jpg)
+### Main Dashboard
+![Main Dashboard - Map View](https://github.com/inkih04/Ecomentor/blob/main/images/mapa.png) 
+![Main Dashboard - Sidebar](https://github.com/inkih04/Ecomentor/blob/main/images/sideBar.png)
 
-### Energy Certificates
-![Certificates](./screenshots/certificates.jpg)
+### Achievements System
+![Achievements](https://github.com/inkih04/Ecomentor/blob/main/images/logros.png) 
 
-### AI Chatbot
-![Chatbot](./screenshots/chatbot.jpg)
--->
+### AI-Powered Recommendations
+![Recommendations](https://github.com/inkih04/Ecomentor/blob/main/images/recommendations.png) 
 
-*Screenshots will be added soon*
+### Certificate Comparison Tool
+![Certificate Comparison](https://github.com/inkih04/Ecomentor/blob/main/images/compare.png) 
+
+### AI Sustainability Advisor Chat
+![AI Advisor](https://github.com/inkih04/Ecomentor/blob/main/images/chat.png) 
+
+### Improvement Calculator
+![Calculator](https://github.com/inkih04/Ecomentor/blob/main/images/Calculate.png)
+
+</details>
 
 ## Backend API
 
